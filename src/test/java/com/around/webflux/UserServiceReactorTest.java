@@ -1,12 +1,12 @@
 package com.around.webflux;
 
 
-import com.around.webflux.reactor.UserReactorService;
-import com.around.webflux.reactor.common.User;
-import com.around.webflux.reactor.repository.ArticleReactorRepository;
-import com.around.webflux.reactor.repository.FollowReactorRepository;
-import com.around.webflux.reactor.repository.ImageReactorRepository;
-import com.around.webflux.reactor.repository.UserReactorRepository;
+import com.around.webflux.practices.reactor.UserReactorService;
+import com.around.webflux.practices.reactor.common.User;
+import com.around.webflux.practices.reactor.repository.ArticleReactorRepository;
+import com.around.webflux.practices.reactor.repository.FollowReactorRepository;
+import com.around.webflux.practices.reactor.repository.ImageReactorRepository;
+import com.around.webflux.practices.reactor.repository.UserReactorRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
